@@ -19,6 +19,19 @@ To create a basic HTTP server using Node.js and build a web server using Express
 - JavaScript
 - Visual Studio Code
 
+## Live Deployment
+
+**Deployment Status:** Live
+
+**Render URL:** https://backend-development-fundamentals-labs-e4cd.onrender.com
+
+### Live Endpoints
+
+- Home: https://backend-development-fundamentals-labs-e4cd.onrender.com/
+- About: https://backend-development-fundamentals-labs-e4cd.onrender.com/about
+- Time: https://backend-development-fundamentals-labs-e4cd.onrender.com/time
+- Unknown: https://backend-development-fundamentals-labs-e4cd.onrender.com/unknown
+
 ## Project Setup
 
 1. Install Node.js.
