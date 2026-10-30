@@ -53,19 +53,19 @@ To create a basic HTTP server using Node.js and build a web server using Express
 ## Screenshots
 
 ### 1. Node.js HTTP Server
-![Node HTTP Server](./screenshots/node-http-server.png)
+![Node HTTP Server](./SCREEN%20SHORTS/node-http-server.png.png)
 
 ### 2. Express Home
-![Express Home](./screenshots/express-home.png)
+![Express Home](./SCREEN%20SHORTS/express-home.png.png)
 
 ### 3. Express About
-![Express About](./screenshots/express-about.png)
+![Express About](./SCREEN%20SHORTS/express-about.png.png)
 
 ### 4. Express Time
-![Express Time](./screenshots/express-time.png)
+![Express Time](./SCREEN%20SHORTS/express-time.png.png)
 
 ### 5. Express 404
-![Express 404](./screenshots/express-404.png)
+![Express 404](./SCREEN%20SHORTS/express-404.png.png)
 
 ## Conclusion
 
