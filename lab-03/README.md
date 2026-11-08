@@ -118,6 +118,82 @@ The book records contain ID, title, author, price and pages.
 
 ## Screenshots
 
+
+## Screenshots
+
+### 1. Project Setup and Server
+
+![Project Setup](./SCREEN%20SHORTS/01_Lab03_Project_Setup.png)
+
+![Existing Server Code](./SCREEN%20SHORTS/02_Existing_Server_Code.png)
+
+![Server Running](./SCREEN%20SHORTS/03_Server_Running.png)
+
+### 2. GET API Operations
+
+![GET API Updated](./SCREEN%20SHORTS/02_GET_API_Updated.png)
+
+![GET All Books](./SCREEN%20SHORTS/01_GET_All_Books.png)
+
+![GET Book by ID 1](./SCREEN%20SHORTS/02_GET_Book_ID_1.png)
+
+![GET Book by ID 2](./SCREEN%20SHORTS/03_GET_Book_ID_2.png)
+
+### 3. POST API and Validation
+
+![POST Add Book](./SCREEN%20SHORTS/04_POST_Add_Book.png)
+
+![POST Success Response](./SCREEN%20SHORTS/14_POST_Success_Response.png)
+
+![POST Validation Code](./SCREEN%20SHORTS/12_POST_Validation_Code.png)
+
+![POST Missing Title](./SCREEN%20SHORTS/15_POST_Missing_Title.png)
+
+![POST Missing Author](./SCREEN%20SHORTS/16_POST_Missing_Author.png)
+
+![POST Invalid Price](./SCREEN%20SHORTS/17_POST_Invalid_Price.png)
+
+![POST Empty Price](./SCREEN%20SHORTS/18_POST_Empty_Price.png)
+
+### 4. Search, Sorting, Filtering and Pagination
+
+![Search Books](./SCREEN%20SHORTS/05_Search_Books.png)
+
+![Sort by Price](./SCREEN%20SHORTS/06_Sort_By_Price.png)
+
+![Sort Descending](./SCREEN%20SHORTS/07_Sort_Descending.png)
+
+![Limit Test](./SCREEN%20SHORTS/08_Limit_Test.png)
+
+![Offset Test](./SCREEN%20SHORTS/09_Offset_Test.png)
+
+![Price Filter](./SCREEN%20SHORTS/10_Price_Filter.png)
+
+![Valid Price Filter](./SCREEN%20SHORTS/40_GET_Valid_Price_Filter.png)
+
+![Combined Query Test](./SCREEN%20SHORTS/47_GET_Combined_Query_Test.png)
+
+### 5. GET API Error Handling
+
+![Invalid Limit](./SCREEN%20SHORTS/34_GET_Invalid_Limit_Validation.png)
+
+![Invalid Offset](./SCREEN%20SHORTS/35_GET_Invalid_Offset_Validation.png)
+
+![Invalid Order By](./SCREEN%20SHORTS/36_GET_Invalid_Order_By_Validation.png)
+
+![Invalid Order](./SCREEN%20SHORTS/37_GET_Invalid_Order_Validation.png)
+
+![Invalid Price Filter](./SCREEN%20SHORTS/38_GET_Invalid_Price_Filter.png)
+
+### 6. PUT and DELETE Operations
+
+![PUT Update Book](./SCREEN%20SHORTS/48_PUT_Update_Book.png)
+
+![Verify Updated Book](./SCREEN%20SHORTS/49_GET_Verify_Updated_Book.png)
+
+![DELETE Book Success](./SCREEN%20SHORTS/50_DELETE_Book_Success.png)
+
+
 All API testing screenshots are maintained in the `SCREENSHOTS` folder.
 
 The screenshots demonstrate API operations, validation responses and database verification.
