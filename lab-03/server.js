@@ -18,7 +18,18 @@ const initializeDBAndServer = async () => {
       driver: sqlite3.Database,
     });
 
-    console.log("Database connected successfully");
+        console.log("Database connected successfully");
+
+    // Create book table if it does not exist
+    await db.exec(`
+      CREATE TABLE IF NOT EXISTS book (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        title TEXT,
+        author TEXT,
+        price REAL,
+        pages INTEGER
+      );
+    `);
 
     
     // GET API: Retrieve books with search, sorting, pagination and price filtering
@@ -243,15 +254,15 @@ app.delete("/books/:bookId/", async (request, response) => {
   }
 });
 
-    app.listen(3000, () => {
-      console.log("Server running at http://localhost:3000/");
-    });
+      const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`Server running on port ${PORT}`);
+});
 
   } catch (error) {
-    console.log(`Database Error: ${error.message}`);
-    process.exit(1);
+    console.log(`DB Error: ${error.message}`);
   }
 };
 
 initializeDBAndServer();
- 
